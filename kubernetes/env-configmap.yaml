@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configuration-values
+data:
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-test.cyptacxcm0xs.us-east-1.rds.amazonaws.com
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  AWS_BUCKET: project3-udacity
+  URL: http://localhost:8080
